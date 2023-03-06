@@ -12,7 +12,8 @@ body {
 }
 
 #app {
-  width: 100vw;
+  width: 80%;
+  margin-left: 10%;
   height: 100vh;
   background: #343541;
 
@@ -20,6 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 #chat_container {
@@ -51,6 +53,7 @@ body {
 
 .ai {
   background: #40414F;
+  border-radius: 5px;
 }
 
 .chat {
@@ -122,6 +125,7 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  border-radius: 10px;
 }
 
 textarea {
